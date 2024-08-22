@@ -46,8 +46,6 @@
 
 
 # Solution 1: Larger code, harder to understand
-# Time complexity: O(n), same as Solution 2, but slightly worse.
-# Space complexity: Slightly better than solution 2.
 class Solution(object):
     def romanToInt(self, s):
         """
@@ -115,8 +113,6 @@ print(result)
 
 
 # Solution 2: Simpler code, easier to understand
-# Time complexity: O(n), but slightly faster than Solution 1
-# Space complexity: Slightly worse than Solution 1
 class Solution(object):
     def romanToInt(self, s):
         """
