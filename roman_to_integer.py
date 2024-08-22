@@ -45,8 +45,9 @@
 # It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
 
-# Solution 1: inefficient use of memory and harder to comprehend
-# This solution does have time complexity of O(n), however it uses a lot of memory.
+# Solution 1: Larger code, harder to understand
+# Time complexity: O(n), same as Solution 2, but slightly worse.
+# Space complexity: Slightly better than solution 2.
 class Solution(object):
     def romanToInt(self, s):
         """
@@ -113,8 +114,9 @@ result = solution.romanToInt(s)
 print(result)
 
 
-# Solution 2: Optimizing memory
-# Time complexity: O(n)
+# Solution 2: Simpler code, easier to understand
+# Time complexity: O(n), but slightly faster than Solution 1
+# Space complexity: Slightly worse than Solution 1
 class Solution(object):
     def romanToInt(self, s):
         """
